@@ -1,0 +1,396 @@
+/*icones  https://icons.getbootstrap.com/  */
+
+
+:root{
+	/*Roxo*/ --CorTema : #320133;
+	/*branco*/--Branco:#ffffff;
+	/*Roxo claro*/--CorLetRoxo:#b67fb7;
+	/*Fundo do input*/--CorFundoModalInput:#d0d1d6;
+	/*Fonte PG-BotaoHome*/--Fonte-BotaoHome: 'Varela Round', sans-serif;
+	/*Fonte PG-subsobre*/--Fonte-Sobre: 'Big Shoulders Display', cursive;;
+	/*Fonte PG-paradescri*/--Fonte-descri:'Khula', sans-serif;
+	/*Fonte PG-EmBrevePg*/--fonte-EmBreve: 'Fugaz One', cursive;
+
+	}
+/*-----------------------------------*/
+/*NO GERAL*/
+a:link {
+  	text-decoration:none;
+}
+
+.topMenu {
+	margin-right:10%;
+	margin-top:5%;
+	font-size:150%; 
+	color: var(--Branco);
+}
+.titulologo{
+	color: var(--Branco);	
+}
+.d-flex{
+	margin-right: 40%;
+}
+
+.bodyPrincipal{
+	color:var(--Branco);
+	background-color:var(--CorTema); 
+}
+.bodyPrincipalCImg{
+	color:var(--Branco);
+	background-color:var(--CorTema); 
+	background-image: url("imagem/Img_de_fundo_cadastra_c_filtro.png");
+	background-repeat: no-repeat, repeat;
+	background-position: right;
+	background-size: 700px;
+	margin-bottom: 60px;
+	/*width:50px;*/
+	/*padding-right: 50px*/
+}
+.bodyPrincipalCadastra{
+	color:var(--Branco);
+	background-color:var(--CorTema); 
+	/*background-image: url("imagem/Img_de_fundo_cadastra2.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: 190px; 
+	padding-top: -60px*/
+}
+.container-fluid{
+	background-color:var(--CorTema);
+}
+.pgPadrao{
+	margin-top:10%;	
+}
+/*Input no geral*/
+.inputCad1{
+	opacity:0.7;
+	width:400px;
+}
+.inputCad2{
+	opacity:0.7;
+	width:200px;
+}
+.inputCad3{
+	opacity:0.7;
+	width:170px;
+	margin-left:120px
+}
+.btn-Cad{
+	opacity:0.7;
+	margin-top:1px
+}
+.linhaEsqueci{
+	text-align: left;
+	margin-top:-20px !important
+}
+/*-----------------------------------*/
+/*PAGINA iNDEX*/
+.subtitulo{
+	color: var(--CorLetRoxo);	
+}
+.subtitulo2{
+   color:var(--Branco);
+   font-size:70px;
+}
+.buttonHome{
+	color:#fff;
+	background:var(--CorTema);
+	border-color:var(--Branco);
+	font-family: var(--Fonte-BotaoHome);
+	width: 130px;
+	height: 40px;
+	font-size:18px
+}
+.buttonHome:hover{
+	font-family: var(--Fonte-BotaoHome);
+    background: var(--Branco);
+    color: var(--CorTema);
+}
+.redeSociais{
+	height:35px;
+	width:35px;
+	border-radius:15px;
+	background-color:var(--CorTema);
+	margin-top:10px;
+	margin-left:115px;
+	border-color:white;
+	border-style: solid;
+	border-width: 1px;
+}
+.redeSociais:hover{
+	background-color: var(--Branco);
+}
+.redeSociais2{
+	height:35px;
+	width:35px;
+	border-radius:15px;
+	background-color:var(--CorTema);
+	margin-top:10px;
+	margin-left:100px;
+	border-color:white;
+	border-style: solid;
+	border-width: 1px;
+}
+.redes{
+	padding-top:38px;
+}
+.iconeRedes{
+	margin-top:5px;
+	margin-left:8px;
+	text-decoration:none;
+}
+.iconeRedes:hover{
+	color:var(--CorTema);
+}
+/*-----------------------------------*/
+/*PAGINA SOBRE*/
+.subsobre{
+	font-family: var(--Fonte-Sobre);
+    color: var(--CorLetRoxo);
+}
+.paradescri {
+	font-size: 24px;
+	font-family: var(--Fonte-descri);
+    color: var(--Branco);
+}
+/*-----------------------------------*/
+/*PAGINA CADASTRO*/
+.pgCAD{
+	margin-top:3%;	
+}
+.textCAD{
+	margin-top: 28px;
+	margin-left: 18px;
+	color:var(--Branco);
+	font-size: 24px;
+	font-family: var(--Fonte-BotaoHome);
+
+}
+.iconeCAD{
+	height:35px;
+	width:35px;
+	border-radius:15px;
+	background-color:var(--CorTema);
+	margin-top:10px;
+	margin-left:115px;
+	border-color:white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*-----------------------------------*/
+/*Cadastro Aluno */
+#espacoLogin{
+	width: 400px;
+	position:relative;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.CadAluno{
+	/*margin-top:5%;*/
+	background-image:url("imagem/logo-estudante.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: 550px;
+
+}
+.tituloCadAluno{
+	font-size: 40px;
+    font-family:var(--Fonte-Sobre);
+}
+.imgProfCad{
+	background-position: center;
+	margin-left:25px;
+}
+/*-----------------------------------*/
+/*Cadastro Prof */
+.CadProf{
+	margin-top:5%;
+	background-image:url("imagem/logo-Professor.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: 410px;
+}
+.tituloCadProf{
+	font-size: 40px;
+    font-family:var(--Fonte-Sobre);
+}
+/*-----------------------------------*/
+/*Pagina do Login */
+.subtituloLogin{
+	color:var(--Branco);
+	font-size:55px;
+	text-align: center;
+}
+.pgLOG{
+		margin-top:3%;	
+}
+.linhaIMG{
+	margin-top:50px
+}
+.imgProf{
+	margin-left: 365px;
+	width:200px;
+	height:115px;
+}
+.imgAluno{
+	margin-left:0px;
+	width:250px;
+	height:115px;
+}
+.txtProfLOG{
+	margin-top: 28px;
+	margin-left: 380px;
+	color:var(--Branco);
+	font-size: 24px;
+	font-family: var(--Fonte-BotaoHome);
+	
+}
+.txtAlunoLOG{
+	margin-top: 28px;
+	margin-left:50px;
+	color:var(--Branco);
+	font-size: 24px;
+	font-family: var(--Fonte-BotaoHome);
+}
+/*-----------------------------------*/
+/*Pagina do Login Professor */
+#espacoLogin{
+	width: 400px;
+	position:relative;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+/*-----------------------------------*/
+/*Pagina do Login Aluno */
+#espacoLogin{
+	width: 400px;
+	position:relative;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.LogAluno{
+	margin-top:5%;
+	background-image: url("imagem/logo-estudante.png") ;
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: 520px;
+}
+/*-----------------------------------*/
+/*PGProjetosAluno */
+
+/*parte do projetos*/
+.flex-container {
+  display: flex;
+  /*background-color: DodgerBlue;*/
+}
+/*formataçao do botao para cadastrar o projeto*/
+.flex-container > div.AddProj {
+  background-color: #c52638;/* cor do quadrado*/
+  margin: 10px;
+  padding: 11px /*altura*/ 55px /*lado*/ ;
+  font-size: 80px;
+  height:160px;
+  width: 160px;
+}
+/*Formataçao para os demais projetos criados*/
+.flex-container > div.ProjCriado {
+  background-color: #444;/* cor do quadrado*/
+  margin: 10px;
+  padding: 11px /*<-altura*/ 55px /*<-lado*/;
+  font-size: 80px;
+  height:160px;
+  width: 160px;
+}
+/*fim parte do projeto*/
+/*Modal dos projetos*/ 
+.inputCadProj{
+	opacity:0.7;
+	width:400px;
+	margin-top:2%;
+	border:none;
+	background-color: var(--CorFundoModalInput);
+}
+.inputCadProjNum{
+	opacity:0.7;
+	width:190px;
+	margin-top:2%;
+	margin-left:5%;
+	border:none;
+	background-color: var(--CorFundoModalInput);
+}
+.inputSelect{
+	margin-top:4%;
+	opacity:0.7;
+	border:none;
+	background-color: var(--CorFundoModalInput);
+}
+.inputTextArea{
+	border:none;
+	background-color: var(--CorFundoModalInput);
+
+}
+/*Pg normal*/
+.NomeAlunoProj{
+	font-size:25px
+}
+.LinhaIDAlunoProj{
+	margin-top:5px;
+	font-size:25px;
+	width:180px;
+}
+
+/*PGProjetosProf */
+
+/*parte do projetos*/
+.flex-container {
+  display: flex;
+  /*background-color: DodgerBlue;*/
+}
+/*formataçao do botao para cadastrar o projeto*/
+.flex-container > div.MostraProj {
+  background-color: var(--CorTema);/* cor do quadrado*/
+  margin: 10px;
+  padding: 11px /*altura*/ 29px /*lado*/ ;
+  font-size: 80px;
+  height:160px;
+  width: 160px;
+}
+/*Formataçao para os demais projetos criados*/
+.flex-container > div.ProjCriadoProf {
+  background-color: #444;/* cor do quadrado*/
+  margin: 10px;
+  padding: 11px /*<-altura*/ 40px /*<-lado*/;
+  font-size: 80px;
+  height:160px;
+  width: 160px;
+}
+/*fim parte do projeto*/
+
+
+
+
+
+
+/*-----------------------------------*/
+/*Em breve page */
+.bodyPrincipalEmAndamento{
+	color:var(--Branco);
+	background-color:var(--CorTema);
+}
+.subtitulo3{
+	color:var(--Branco);
+    font-size:70px;
+    font-family:var(--fonte-EmBreve);
+}
+.pgEmBreve{
+	margin-top:12%;		
+}
+.EmBrevinho{
+	margin-left:31%;	
+}
+.btn-position-retuurn-log{
+	margin-top: 70px;
+	margin-left: 200px;
+}
